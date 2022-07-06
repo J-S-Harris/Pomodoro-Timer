@@ -63,7 +63,14 @@
 
 
 @media screen and (max-width: 1300px) {
-    
+ 
+    #mainContainer {
+        width: 95%;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+
     #defaultChoices {
         flex-direction: column;
     }

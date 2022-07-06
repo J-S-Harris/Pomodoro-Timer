@@ -71,7 +71,7 @@ const startButton = document.getElementById('goButton')
 startButton.addEventListener('click',() => {
 
     if (countingDown == 0) {
-        countDown = setInterval(countDownwards,1);
+        countDown = setInterval(countDownwards,1000);
         countingDown += 1;
         startButton.innerText = 'Stop'
         if (countdown % 2 == 0) {
